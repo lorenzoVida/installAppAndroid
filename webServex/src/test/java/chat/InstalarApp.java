@@ -20,7 +20,7 @@ public class InstalarApp {
 		DesiredCapabilities cap = new DesiredCapabilities();
 
 	//	cap.setCapability("platformName", "Android");
-		cap.setCapability("deviceName", "AOSP on IA Emulator");
+		cap.setCapability("deviceName", "Android");
 		cap.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
 	//	cap.setCapability("deviceName", "Android");
 	//	cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2");

@@ -14,14 +14,17 @@ import io.appium.java_client.remote.MobileCapabilityType;
 
 public class Mobile {
 public AndroidDriver<AndroidElement> driver;
-	
+public static final String USERNAME = "lorenzovida";
+public static final String ACCESS_KEY = "15b061a6-42d1-4492-84e1-fb371bd7a36d";
+public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub";
+
     @BeforeMethod
 	public AndroidDriver<AndroidElement> setUp() throws MalformedURLException {
 		DesiredCapabilities cap = new DesiredCapabilities();
 
 		cap.setCapability("platformName", "Android");
 		cap.setCapability("platformVersion", "8");
-		cap.setCapability("deviceName", "Android");
+		cap.setCapability("deviceName", "Android Emulator");
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2");
 	//	cap.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
 		cap.setCapability("appPackage", "com.linkedin.android");
