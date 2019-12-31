@@ -11,7 +11,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileCapabilityType;
 
-public class Base {
+public class BaseDialer {
 
 	public static AndroidDriver<AndroidElement> capabilities() throws MalformedURLException {
 		 
@@ -28,8 +28,8 @@ public class Base {
 		cap.setCapability("browserName", "");
 		cap.setCapability("deviceType","phone");
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"Appium");
-		cap.setCapability("appPackage", "io.appium.android.apis");
-		cap.setCapability("appActivity", "io.appium.android.apis.ApiDemos");
+		cap.setCapability("appPackage", "com.google.android.dialer");
+		cap.setCapability("appActivity", "com.google.android.dialer.extensions.GoogleDialtactsActivity");
 	//	cap.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
 	//	cap.setCapability(MobileCapabilityType.APP, "http://appium.s3.amazonaws.com/ApiDemos-debug-2015-03-19.apk");
 		//cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2");
