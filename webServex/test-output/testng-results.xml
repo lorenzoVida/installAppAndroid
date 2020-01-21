@@ -2,19 +2,19 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9811" started-at="2020-01-03T18:01:33 COT" finished-at="2020-01-03T18:01:43 COT">
+  <suite name="Default suite" duration-ms="12881" started-at="2020-01-21T11:13:36 COT" finished-at="2020-01-21T11:13:49 COT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9811" started-at="2020-01-03T18:01:33 COT" finished-at="2020-01-03T18:01:43 COT">
+    <test name="Default test" duration-ms="12881" started-at="2020-01-21T11:13:36 COT" finished-at="2020-01-21T11:13:49 COT">
       <class name="webapp.WebServex">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:webapp.WebServex@5bb21b69]" name="setUp" is-config="true" duration-ms="9772" started-at="2020-01-03T18:01:33 COT" finished-at="2020-01-03T18:01:43 COT">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:webapp.WebServex@6b9651f3]" name="setUp" is-config="true" duration-ms="12779" started-at="2020-01-21T11:13:36 COT" finished-at="2020-01-21T11:13:49 COT">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '79.0.3945'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
+              <![CDATA[Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LIMADES001', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '79.0.3945'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
     at getResponseForW3CError (C:\Users\lvidaurre\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
     at asyncHandler (C:\Users\lvidaurre\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:388:37)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
@@ -22,11 +22,11 @@ System info: host: 'LIMADES001', ip: '192.168.56.1', os.name: 'Windows 10', os.a
 Driver info: driver.version: AndroidDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '79.0.3945'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LIMADES001', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '79.0.3945'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
     at getResponseForW3CError (C:\Users\lvidaurre\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
     at asyncHandler (C:\Users\lvidaurre\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:388:37)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
@@ -85,11 +85,11 @@ at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
 ... 45 more
-Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '79.0.3945'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LIMADES001', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '79.0.3945'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
     at getResponseForW3CError (C:\Users\lvidaurre\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
     at asyncHandler (C:\Users\lvidaurre\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:388:37)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -116,14 +116,14 @@ at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="ingresar()[pri:0, instance:webapp.WebServex@5bb21b69]" name="ingresar" duration-ms="1" started-at="2020-01-03T18:01:43 COT" finished-at="2020-01-03T18:01:43 COT">
+        <test-method status="SKIP" signature="ingresar()[pri:0, instance:webapp.WebServex@6b9651f3]" name="ingresar" duration-ms="0" started-at="2020-01-21T11:13:49 COT" finished-at="2020-01-21T11:13:49 COT">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '79.0.3945'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
+              <![CDATA[Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LIMADES001', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '79.0.3945'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
     at getResponseForW3CError (C:\Users\lvidaurre\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
     at asyncHandler (C:\Users\lvidaurre\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:388:37)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
@@ -131,11 +131,11 @@ System info: host: 'LIMADES001', ip: '192.168.56.1', os.name: 'Windows 10', os.a
 Driver info: driver.version: AndroidDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '79.0.3945'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LIMADES001', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '79.0.3945'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
     at getResponseForW3CError (C:\Users\lvidaurre\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
     at asyncHandler (C:\Users\lvidaurre\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:388:37)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
@@ -194,11 +194,11 @@ at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
 ... 45 more
-Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '79.0.3945'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LIMADES001', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '79.0.3945'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature
     at getResponseForW3CError (C:\Users\lvidaurre\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
     at asyncHandler (C:\Users\lvidaurre\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:388:37)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
