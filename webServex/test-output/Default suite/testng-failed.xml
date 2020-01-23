@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="webapp.WebServex">
+      <class name="sauceLabs.Appdemo">
         <methods>
-          <include name="ingresar"/>
+          <include name="seleccionarPais"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- webapp.WebServex -->
+      </class> <!-- sauceLabs.Appdemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
