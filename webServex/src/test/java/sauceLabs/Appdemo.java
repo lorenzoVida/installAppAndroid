@@ -24,7 +24,7 @@ public class Appdemo {
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME,"Android");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
 		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"8");
-		cap.setCapability(MobileCapabilityType.APP, "calculator2.apk");
+		cap.setCapability(MobileCapabilityType.APP, "calculator2.apk");	
 		cap.setCapability("appPackage", "com.android.calculator2");
 		cap.setCapability("appActivity", "com.android.calculator2.Calculator");
 		AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(new URL("http://0.0.0.0:4723/wd/hub"),cap);
